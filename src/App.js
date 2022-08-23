@@ -51,7 +51,7 @@ const Wrapper = () => {
 const Wrapper2 = (props) => {
   return (
     <h2 style={{ backgroundColor: "green", width: 100, zIndex: 3 }}>
-      blue {props.children}
+      green{props.children}
     </h2>
   );
 };
